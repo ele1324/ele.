@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ele.",
+  "url": "https://yourwebsite.com",
+  "description": "A web devoloping company"
+  ]
+}
+</script>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ele.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* --- Basic Reset & Fonts --- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: #111;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    /* --- Header --- */
+    header {
+      background: linear-gradient(90deg, #ff4c4c, #ffb347);
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #fff;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      color: #eee;
+    }
+
+    /* --- Main Content --- */
+    main {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .product-card {
+      background: #222;
+      border: 2px solid #444;
+      border-radius: 12px;
+      padding: 1.5rem;
+      transition: transform 0.3s, border-color 0.3s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      border-color: #ff4c4c;
+    }
+
+    .product-card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .product-card p {
+      font-size: 1rem;
+      color: #ccc;
+      margin-bottom: 1rem;
+    }
+
+    .product-card a {
+      text-decoration: none;
+      color: #ffb347;
+      font-weight: bold;
+    }
+
+    .product-card a:hover {
+      color: #ff4c4c;
+    }
+
+    /* --- Footer --- */
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #111;
+      border-top: 1px solid #333;
+      margin-top: 3rem;
+    }
+
+    footer p {
+      color: #888;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>ele.</h1>
+    <p>All of ele.'s websites. All in one place</p>
+  </header>
+
+  <main>
+    <div class="products">
+
+      <!-- Product Example -->
+      <div class="product-card">
+        <h2>ele. Games</h2>
+        <p>A place to play web games</p>
+        <a href="https://ele1324.github.io/Games/" target="_blank">View Product</a>
+      </div>
+
+      <div class="product-card">
+        <h2>ele. Info Finder</h2>
+        <p>A website where you can search something up and find the best results on wikipedia and also read some of the article</p>
+        <a href="https://ele1324.github.io/Info-Finder/" target="_blank">View Product</a>
+      </div>
+
+      <div class="product-card">
+        <h2>Clarity Chat</h2>
+        <p>A AI assistant.</p>
+        <a href="https://ele1324.github.io/Clarity-Chat---ele./" target="_blank">View Product</a>
+      </div>
+
+      <!-- Add more product cards here -->
+
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 ele. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
